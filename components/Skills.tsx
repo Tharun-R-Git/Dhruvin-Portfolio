@@ -44,7 +44,7 @@ const Skills = () => {
         <InfiniteMovingCards 
           items={itemsSet1} 
           direction="left" 
-          speed="fast" 
+          speed="normal" 
           pauseOnHover={true} 
           className="text-center font-semibold" 
         />
@@ -55,7 +55,7 @@ const Skills = () => {
         <InfiniteMovingCards 
           items={itemsSet2} 
           direction="right" 
-          speed="fast" 
+          speed="normal" 
           pauseOnHover={true} 
           className="text-center font-semibold tracking-widest" 
         />
@@ -66,7 +66,7 @@ const Skills = () => {
         <InfiniteMovingCards 
           items={itemsSet3} 
           direction="left" 
-          speed="fast" 
+          speed="normal" 
           pauseOnHover={true} 
           className="text-center font-semibold"
         />

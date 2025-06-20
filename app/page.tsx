@@ -28,10 +28,12 @@ export default function Home() {
         />
         <section id="Home">
           <Hero />
-        </section>
-        <section id="Projects" className="mt-[190px] mb-[0px]">
-          <Grid />
+           <Grid />
           <LampDemo text="Projects" />
+        </section>
+        
+        <section id="Projects" className="mt-[190px] mb-[0px]">
+         
           <RecentProjects />
         </section>
         <section id="Skills">

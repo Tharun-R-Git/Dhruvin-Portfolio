@@ -24,8 +24,8 @@ export const gridItems = [
     {
       id: 2,
       title: "About me 👦",
-      description: " - Currently a Pre-Final Year Computer Science Engineering Student @ VIT Vellore <br/> - Based in Chennai, India <br/> - Keen to learn new technolgies and apply them in real world<br/> - When I am free, I play chess, go out cycling or enjoy listening music  ",
-      className: "lg:col-span-2 lg:row-span-1 md:col-span-2 md:row-span-1 sm:col-span-6 sm:row-span-1", // Adjusted
+      description: " - Final Year CSE Student @ VIT Vellore <br/>- Based in Mumbai, India<br/>- Curious mind who enjoys building, breaking, and fixing things — especially in tech<br/>- Off-screen? You will find me cycling, playing chess, or vibing to music<br/>- Strong believer in learning by doing — growth over perfection  ",
+      className: "lg:col-span-2 lg:row-span-1 md:col-span-2 md:row-span-1 sm:col-span-6 sm:row-span-1",
       imgClassName: "",
       titleClassName: "justify-center",
       img: "",
@@ -34,7 +34,7 @@ export const gridItems = [
     {
       id: 4,
       title: "Areas of Interest 👨‍💻",
-      description: "Enthusiastic and dedicated BTech student majoring in Computer Science Engineering at VIT Vellore, with a passion for front-end development and machine learning. Proficient in Python, Java, React.js, and machine learning techniques including NLP and classification. Seeking opportunities to leverage my skills and contribute to innovative projects in web development and machine learning",
+      description: "Motivated Computer Science student with a knack for front-end development, machine learning, and system design. Skilled in React.js, Java, Python, and exploring AI integration in web apps. Excited by real-world challenges, especially those that blend UI/UX with intelligence — from intuitive interfaces to smart recommendations.",
       className: "lg:col-span-2 lg:row-span-1 md:col-span-2 md:row-span-1 sm:col-span-6 sm:row-span-1", // Adjusted
       imgClassName: "",
       titleClassName: "justify-start",
@@ -44,7 +44,7 @@ export const gridItems = [
     {
       id: 5,
       title: "Connect with me 🔗",
-      description: "I&apos;m always open to networking, collaborating on exciting web development and machine learning projects, and sharing knowledge. Let&apos;s connect and grow together!", 
+      description: "Open to opportunities in web development, AI/ML, and tech collaborations. Whether it's building a product, solving a problem, or just exchanging ideas — let’s connect and make cool things happen. 🚀", 
       className: "lg:col-span-1 lg:row-span-1 md:col-span-1 md:row-span-1 sm:col-span-6 sm:row-span-1",
       imgClassName: "absolute right-0 bottom-0 md:w-80 w-48",
       titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -89,11 +89,11 @@ export const gridItems = [
     },
     {
       id: 2,
-      title: "TechShelf",
-      des: "A user-friendly online bookstore that offers a wide selection of tech-related books, featuring seamless login and registration, convenient cart management, and a smooth purchasing process to enhance your reading experience.",
+      title: "Planorama",
+      des: "An AI-powered travel planner using React.js, featuring real-time chatbot support",
       img: "/p2.png",
       iconLists: ["/re.svg", "/tail.svg",  "/stream.svg", "/c.svg","/ts.svg"],
-      link: "https://techshelfbydhruvin.netlify.app/",
+      link: "https://planoramabydhruvin.netlify.app/",
     },
     {
       id: 3,
