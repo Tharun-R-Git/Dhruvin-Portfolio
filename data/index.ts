@@ -24,7 +24,7 @@ export const gridItems = [
     {
       id: 2,
       title: "About me 👦",
-      description: " - Final Year CSE Student @ VIT Vellore <br/>- Based in Mumbai, India<br/>- Curious mind who enjoys building, breaking, and fixing things — especially in tech<br/>- Off-screen? You will find me cycling, playing chess, or vibing to music<br/>- Strong believer in learning by doing — growth over perfection  ",
+      description: " - R&D Engineer @ QSC <br/>- Based in Mumbai, India<br/>- Curious mind who enjoys building, breaking, and fixing things — especially in tech<br/>- Off-screen? You will find me cycling, playing chess, or vibing to music<br/>- Strong believer in learning by doing — growth over perfection  ",
       className: "lg:col-span-2 lg:row-span-1 md:col-span-2 md:row-span-1 sm:col-span-6 sm:row-span-1",
       imgClassName: "",
       titleClassName: "justify-center",

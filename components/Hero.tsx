@@ -40,9 +40,9 @@ const Hero = () => {
           <div className='text-center tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
             <FlipWords
               words={[
-                <TypewriterEffect key="ds" words={[{ text: "Aspiring", className: "" }, { text: "Web", className: "" }, { text: "Developer", className: "" }]} />,
+                <TypewriterEffect key="ds" words={[{ text: "R&D", className: "" }, { text: "Engineer", className: "" }]} />,
+                <TypewriterEffect key="ds" words={[{ text: "Full", className: "" }, { text: "Stack", className: "" }, { text: "Developer", className: "" }]} />,
                 <TypewriterEffect key="ds" words={[{ text: "Tech", className: "" }, { text: "Lover", className: "" }]} />,
-                <TypewriterEffect key="ds" words={[{ text: "Machine", className: "" }, { text: "Learning", className: "" }, { text: "Enthusiast", className: "" }]} />,
                 <TypewriterEffect key="ds" words={[{ text: "Cyclist", className: "" }]} />,
                 <TypewriterEffect key="ds" words={[{ text: "Youtuber", className: "" }]} />,
               ]}
