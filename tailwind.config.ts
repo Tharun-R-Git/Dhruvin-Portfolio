@@ -26,7 +26,21 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ["var(--font-inter)", "system-ui", "sans-serif"],
+        display: ["var(--font-display)", "Georgia", "serif"],
+        mono: ["var(--font-mono)", "ui-monospace", "monospace"],
+      },
       colors: {
+        research: {
+          DEFAULT: "hsl(var(--research))",
+          foreground: "hsl(var(--research-foreground))",
+        },
+        highlight: {
+          DEFAULT: "hsl(var(--highlight))",
+          foreground: "hsl(var(--highlight-foreground))",
+        },
+        section: "hsl(var(--section-bg))",
         black: {
           DEFAULT: "#000",
           100: "#000319",

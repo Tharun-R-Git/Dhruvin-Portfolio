@@ -81,6 +81,30 @@ export const gridItems = [
   export const projects = [
     {
       id: 1,
+      title: "MCP Server for IDE Integration",
+      des: "A custom Model Context Protocol server in TypeScript exposing 17 internal tools (Bitbucket repos, Azure DevOps pipelines) to VS Code Copilot — adopted pod-wide.",
+      img: "/bg.png",
+      iconLists: ["/ts.svg", "/azure-2.svg", "/git.svg", "/three.svg"],
+      link: "#",
+    },
+    {
+      id: 2,
+      title: "SilentBridge",
+      des: "IEEE award-winning bidirectional ISL communication system: voice-to-sign rendering 1000+ videos and real-time sign-to-speech via MediaPipe.",
+      img: "/bg.png",
+      iconLists: ["/re.svg", "/tail.svg", "/python-5.svg", "/opencv.svg"],
+      link: "#",
+    },
+    {
+      id: 3,
+      title: "Planorama",
+      des: "An AI-powered travel planner in React.js with a per-user chatbot, AI itinerary generator, and a suite of 4 static travel tools — serving 30+ users.",
+      img: "/p2.png",
+      iconLists: ["/re.svg", "/tail.svg",  "/stream.svg", "/c.svg","/ts.svg"],
+      link: "https://planoramabydhruvin.netlify.app/",
+    },
+    {
+      id: 4,
       title: "MindFlect",
       des: "Effortlessly create and publish blogs, featuring customizable titles and descriptions, all beautifully displayed as engaging cards",
       img: "/p3.png",
@@ -88,15 +112,7 @@ export const gridItems = [
       link: "https://mindflect.netlify.app/",
     },
     {
-      id: 2,
-      title: "Planorama",
-      des: "An AI-powered travel planner using React.js, featuring real-time chatbot support",
-      img: "/p2.png",
-      iconLists: ["/re.svg", "/tail.svg",  "/stream.svg", "/c.svg","/ts.svg"],
-      link: "https://planoramabydhruvin.netlify.app/",
-    },
-    {
-      id: 3,
+      id: 5,
       title: "MovieMate",
       des: "Retrieve movie insights, including reviews and ratings. Displayed through a React-powered interface and co-powered by TMDB.",
       img: "/p1.png",
